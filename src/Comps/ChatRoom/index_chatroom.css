@@ -1,0 +1,65 @@
+@keyframes email {
+    from{margin-left:45rem;}
+    to{margin-left: 1%;}
+}
+@keyframes passphrase {
+    from{margin-left:65rem;}
+    to{margin-left: 1%;}
+}
+@keyframes key {
+    from{margin-left:95rem;}
+    to{margin-left: 1%;}
+}
+.chat-container{
+    display: flex;
+    margin-top: 3%;
+    height: 95vh;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: row;
+    background-image: url('https://images.unsplash.com/photo-1526718583451-e88ebf774771?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: 100% 145%;
+    overflow: hidden;
+ }
+.spacer{
+    justify-content: space-evenly ;
+    display: flex;
+
+}
+.login-container{
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+    height:100%;
+
+}
+.login-button{
+    margin-left: 71.5%;
+    margin-top: 5rem;
+    background-color: aliceblue;
+    
+}
+.extra-container{
+    margin-left:15%;
+}
+.email{
+    width: 100%;
+    animation: email 0.5s backwards;
+    background-color: whitesmoke;
+    margin-bottom:4%;
+    text-align: center;
+}
+.passphrase{
+    width: 100%;
+    animation: passphrase 1s backwards;
+    background-color: whitesmoke;
+    margin-bottom:4%;
+    text-align: center;
+}
+.key{
+    width: 100%;
+    animation: key 1.2s backwards;
+    background-color: whitesmoke;
+    margin-bottom:4%;
+    text-align: center;
+}

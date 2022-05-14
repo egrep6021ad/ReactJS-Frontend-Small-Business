@@ -1,0 +1,55 @@
+@keyframes slider2 {
+    from { margin-left:-100%;height:0vh}
+    to {margin-left: 0%;height: 65vh;}    
+}
+
+.pricing-web-container{
+    /*https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80*/
+    background-image: url('../../../Assets//Images/Background-pricing.webp');
+    height:100vh;
+    width: 100%;
+     background-position: cover;
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pricing-text {
+    height: 65vh;
+    width: 50vw;
+    padding: 3%;
+    background-color: #F5E9BE;
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px;
+    overflow-y: scroll;
+    opacity: 0.95;
+    animation: slider2 1s backwards;
+}
+small{
+    font-style: italic;
+}
+.private-yoga{
+    font-size: larger;
+    font-style: italic;
+}
+.first-prices{
+    font-size: 100%;
+}
+.choose-from{
+    font-size: larger;
+}
+.yoga-types{
+    font-size: larger;
+    font-weight: 500;
+}
+.description {
+    font-size: 100%;
+}

@@ -1,0 +1,53 @@
+@keyframes slider {
+    from { margin-left:-100rem}
+    to {margin-left: 0;}    
+}
+
+.web-about-container{
+    height: 100vh;
+    background-image: url('../../../Assets/Images/Background.webp');
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.main-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin-left: 4%;
+    padding-top: 15%;
+    
+}
+.about-p{
+    background-color: #F5E9BE;
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 50%;
+    width:55%;
+    opacity: 0.85;
+    margin: 4%;
+    padding: 4% 5%;
+    font-size: x-large;
+    color: black;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-weight: 450;
+    font-size: 110%;
+}
+.about-h1{
+    padding-top: 3%;
+}
+.headshot {
+    height:45%;
+    width: 28%;
+    border-radius: 50%;
+    z-index: 10;
+    animation: slider 1s backwards;
+}
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}

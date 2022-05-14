@@ -1,0 +1,53 @@
+.mobile-contact-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../../Assets/Images/Background.webp');
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+   
+}
+
+.mobile-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+   margin-right:5rem;
+    height:100%;
+}
+input{
+    border-radius: 8px;
+    z-index: 3;
+}
+textarea{
+    border-radius: 10px;
+    z-index: 3;
+}
+.mobile-cards{
+    display: flex;
+    padding-bottom:3rem;
+    align-items: center;
+    justify-content: space-between;
+    height:104vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    padding: 5%;
+}
+.mobile-cards::-webkit-scrollbar {
+    display: none;
+  }
+.mobile-info-alert{
+    margin-top:1rem;
+
+}
+.individual-card{
+    margin: 5%;
+    
+}

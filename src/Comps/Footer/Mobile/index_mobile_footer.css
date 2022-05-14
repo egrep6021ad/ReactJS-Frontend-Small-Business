@@ -1,0 +1,18 @@
+.mobile-footer-container{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 2.5vh;
+    background-color: #F5E9BE;
+    text-align: center;
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-instagram-yoga-link{
+    margin-top:2.5%;
+}
+.mobile-footer-text{
+    margin-top: 2.5%;
+}

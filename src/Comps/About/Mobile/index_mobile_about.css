@@ -1,0 +1,43 @@
+.mobile-about-container{
+    background-color:#F5E9BE;
+    height: 87.5vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../../../Assets/Images/Background.webp');
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden !important;
+
+}
+.mobile-text-about-text{
+    display: flex;
+    flex-direction:column;
+    background-color: #F5E9BE;
+    align-items: center;
+    justify-content: center;
+    margin-top:5%;
+    height:90%;
+    width:75%;
+    padding-top:-10;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.mobile-headshot{
+    height: 235px;
+    width:230px;
+    margin-top:-10%;
+    border-radius: 5px;
+}
+.mobile-about-p{
+    height: 50vh;
+    width: 90%;
+    margin-top: 4%;
+    margin-bottom: -60%;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}

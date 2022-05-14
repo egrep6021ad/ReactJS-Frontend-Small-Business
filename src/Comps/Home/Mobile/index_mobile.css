@@ -1,0 +1,45 @@
+@keyframes moble-home-fallin {
+    from{margin-top: -50%;}
+    to{margin-top: -15%;}
+}
+@keyframes moble-home-opacity {
+    from{opacity: 0;}
+    to{opacity: 0.9;}
+}
+
+
+.mobile-home-container{
+    background-color:#F5E9BE;
+    height: 83vh;
+    width: 100%;
+    margin: 0;
+    overflow: hidden !important;
+    background-image: url('../../../Assets/Images/Background.webp');
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-logo-mobile{
+    height:110%;
+    width: 70%;
+    border-radius: 10px;
+    margin-top: -15%;
+    margin-left: 15%;
+    animation: moble-home-fallin 3s backwards;
+    overflow: hidden !important;
+}
+.mobile-home-text{
+    text-align: center;
+    color:#F5E9BE;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top:2%;
+    font-size: large;
+    opacity: 0.9;
+    animation:  moble-home-opacity 3s backwards;
+    overflow: hidden !important;
+}

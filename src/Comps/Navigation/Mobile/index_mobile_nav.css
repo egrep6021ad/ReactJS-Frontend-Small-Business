@@ -1,0 +1,17 @@
+.mobile-nav-container{
+    top:0;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    height:7.5vh;
+    width: 100%;
+    background-color: #F5E9BE;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.hamburger-button{
+    margin-right:10%;
+
+
+}
