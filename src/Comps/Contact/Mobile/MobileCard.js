@@ -22,7 +22,7 @@ export default function MobileCard(props) {
           </Avatar>
         }
         title={props.title}
-        subheader={props.date}
+        //subheader={props.date}
       />
       <CardMedia
         component={props.component}

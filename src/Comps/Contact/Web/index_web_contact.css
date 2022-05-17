@@ -8,9 +8,9 @@
 }
 
 .main-web-contact{
-    height: 100vh;
+    height: 98vh;
     width: 100%;
-    overflow: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -26,53 +26,60 @@
     
 }
 .right{
-    height: 110%;
+    height: 85%;
     width: 40%;
-    margin-top: 5%;
     display: flex;
     overflow-x: scroll;
+    overflow-y: hidden;
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
     animation: right-animation 1.5s backwards;
 }
 .card-style{
-    padding:3%;
     width:100%;
     height: 70%;
-    margin:3%;
     display: flex;
     justify-content: space-between;   
 }
 .my-card-container{
-    height:65vh;
-    width: 70%;
+    height:100%;
+    width: 80%;
     display: flex;
     padding:5%;
+    margin-top: -9%;
 }
 .form1{
     width: 100%;
     display: flex;
     flex-direction: row;
     margin-left:2px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .form2{
     width:100%;
     margin:1%;
     display: flex;
     flex-direction: column;
+   
 }
 input {
-    margin:1px;
-    width: 100%;
+    margin:4px;
+    width: 98%;
     text-indent:10px;
     height:7vh;
-    border-radius: 5px;
-    border-color: white;
-    background-color: #F5E9BE;
+    border-radius: 2px;
+    border-width: 0;
+    background-color: whitesmoke;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 3px 2px black;
+    backdrop-filter: blur(10px);
+    z-index: 3;
+}
+input:hover{
+    transform: scale(1.1);
+    margin: 2.7%;
 }
 textarea{
     margin-top: 1%;
@@ -81,12 +88,18 @@ textarea{
     height:25vh;
     text-indent: 10px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 2px;
     border-color: transparent;
-    background-color: #F5E9BE;
-    border-color: white;
-    border-width: 2px;
-    font-family: Arial, Helvetica, sans-serif
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 2px 2px black;
+    backdrop-filter: blur(10px);
+    z-index: 3;
+    
+}
+textarea:hover{
+    transform: scale(1.1);
+    margin-top:3%;
 }
 .info-alert{
     margin-left:1rem;

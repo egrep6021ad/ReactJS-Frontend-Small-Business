@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import Alert from '@mui/material/Alert';
 import IconButton from '@mui/material/IconButton';
 import Collapse from '@mui/material/Collapse';
-import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
 const InfoAlert = () => {
     const [open, setOpen] = React.useState(true);
@@ -30,8 +29,16 @@ const InfoAlert = () => {
                 678-617-5124 <br />
             </Alert>
         </Collapse>
+
+</Box>
+    )
+}
+export default InfoAlert
+
+/*
         {open ? null :
 <Button
+    size="medium"
     disabled={open}
     style={{backgroundColor:'#0693E3', color:'white'}}
     onClick={() => {
@@ -41,7 +48,4 @@ const InfoAlert = () => {
    {open ? null : "Info" }
 </Button>
 }
-</Box>
-    )
-}
-export default InfoAlert
+*/
