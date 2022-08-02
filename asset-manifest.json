@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactJS-Frontend-Small-Business/static/css/main.c4044a4e.css",
+    "main.js": "/ReactJS-Frontend-Small-Business/static/js/main.75c19b55.js",
+    "static/media/Background.webp": "/ReactJS-Frontend-Small-Business/static/media/Background.f265cc07e88e517c5a53.webp",
+    "static/media/Headshot.webp": "/ReactJS-Frontend-Small-Business/static/media/Headshot.d01a7f175355cdb9e9a2.webp",
+    "static/media/LogoTransparent.webp": "/ReactJS-Frontend-Small-Business/static/media/LogoTransparent.996cd4639a7e0a1c4716.webp",
+    "static/media/Logo.webp": "/ReactJS-Frontend-Small-Business/static/media/Logo.b23213d809dd1cf24056.webp",
+    "static/media/Background-pricing.webp": "/ReactJS-Frontend-Small-Business/static/media/Background-pricing.ff33fdc4b75db0c1b2b1.webp",
+    "index.html": "/ReactJS-Frontend-Small-Business/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c4044a4e.css",
+    "static/js/main.75c19b55.js"
+  ]
+}
