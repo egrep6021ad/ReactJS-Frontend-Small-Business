@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.57cee50c.css",
-    "main.js": "/static/js/main.c8ccc414.js",
+    "main.js": "/static/js/main.3eadf47c.js",
     "static/media/Background.webp": "/static/media/Background.f265cc07e88e517c5a53.webp",
     "static/media/Headshot.webp": "/static/media/Headshot.d01a7f175355cdb9e9a2.webp",
     "static/media/LogoTransparent.webp": "/static/media/LogoTransparent.996cd4639a7e0a1c4716.webp",
@@ -11,6 +11,6 @@
   },
   "entrypoints": [
     "static/css/main.57cee50c.css",
-    "static/js/main.c8ccc414.js"
+    "static/js/main.3eadf47c.js"
   ]
 }
